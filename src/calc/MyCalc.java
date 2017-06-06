@@ -218,7 +218,6 @@ public class MyCalc implements ActionListener {
 			if(strHistory[count] != null){
 				inputStr = strHistory[count];
 				count++;
-//				System.out.println(count);
 			}
 		}
 		catch(Exception e){
@@ -246,13 +245,8 @@ public class MyCalc implements ActionListener {
         
         list.remove(num); // 删除指定下标元素
         
-//        System.out.println();  
         String[] newStr =  list.toArray(new String[1]); //返回一个包含所有对象的指定类型的数组   
-//        for (String elementB:newStr ) {  
-//            System.out.print(elementB + " ");  
-//        }     
-        
-//        System.out.println();
+
         return newStr;
     }
     
